@@ -1,0 +1,111 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+section {
+	width: 100%;
+	max-width: none;
+	height: 100vh;
+}
+
+/* Landing Page */
+.home-page {
+  	background: -webkit-linear-gradient(135deg, #24C6DC 10%, #514A9D 90%); /* Chrome 10+, Saf5.1+ */
+  	background:    -moz-linear-gradient(135deg, #24C6DC 10%, #514A9D 90%); /* FF3.6+ */
+  	background:     -ms-linear-gradient(135deg, #24C6DC 10%, #514A9D 90%); /* IE10 */
+  	background:      -o-linear-gradient(135deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
+  	background:         linear-gradient(135deg, #24C6DC 10%, #514A9D 90%); /* W3C */
+	display: table;
+}
+
+.home-page-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.home-page h1 {
+	padding-bottom: 100px;
+	font-weight: bold;
+	font-size: 500%;
+}
+
+.home-page h2 {
+	font-weight: bold;
+	font-size: 300%;
+}
+
+.home-page a:link, .home-page a:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+  	-webkit-transition: color .5s; /* Smoothly fades link color change. */
+  	   -moz-transition: color .5s;
+  	    -ms-transition: color .5s;
+	     -o-transition: color .5s;
+  			transition: color .5s;
+}
+
+.home-page a:hover{
+	color: #F7BD19;
+}
+
+/* General Sub-section Styles */
+
+.subsection-color, .subsection {
+	height:100vh;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-bottom: 50px;
+}
+
+.subsection-color{
+	background-color: #E0E7EC;
+}
+
+.subsection {
+	background-color: #F4F8FA;
+}
+
+.subsection-color h1, .subsection h1 {
+	font-weight: bold;
+	font-size: 500%;
+	text-align: center;
+	color: #000000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.subsection-content {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.subsection-color img {
+	float: left;
+	padding-right: 50px;
+	max-width: 28%;
+}
+
+.subsection img {
+	float: right;
+	padding-left: 50px;
+	max-width: 28%;
+}
+
+.subsection-color p, .subsection p {
+	font-size: 110%;
+	text-align: justify;
+	line-height: 150%;
+}
+
+/* Specific Sub-section Styles */
+
+#last-subsection {
+	height: 80vh;
+	padding-bottom: 25px;
+}
+
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
